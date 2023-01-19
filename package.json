@@ -3,7 +3,7 @@
   "description": "A secure API with login and register endpoints, using express and bcrypt",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "start-dev": "nodemon server.js",
     "test": "jest --watch-all"
   },
@@ -13,7 +13,7 @@
     "bcrypt": "5.0.1",
     "express": "4.18.1",
     "sequelize": "6.20.1",
-    "sqlite3": "5.0.8"
+    "sqlite3": "^5.1.4"
   },
   "devDependencies": {
     "jest": "28.1.0",
